@@ -1,0 +1,90 @@
+.puma{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(pumashirt.webp);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.puma:hover{
+    background-image:url(pumaback.webp)
+}
+.shirt2{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt2f.webp);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt2:hover{
+    background-image:url(shirt2b.webp);
+}
+.shirt3{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt3b.webp);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt3:hover{
+    background-image:url(shirt3f.webp);
+}
+.shirt4{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt4f.webp);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt4:hover{
+    background-image:url(shirt4b.webp);
+}
+.shirt5{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt5f.webp);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt5:hover{
+    background-image:url(shirt5b.webp);
+}
+.shirt6{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt6f.jpg);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt6:hover{
+    background-image:url(shirt6b.webp);
+}
+.shirt7{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt7f.jpg);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt7:hover{
+    background-image:url(shirt7b.webp);
+}
+.shirt8{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt8f.jpg);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt8:hover{
+    background-image:url(shirt8b.webp);
+}
+.shirt9{
+    height: 400px;
+    cursor: pointer;
+    background-image: url(shirt9f.jpg);
+    background-size: cover;
+    transition: ease-in-out 0.3s ;
+}
+.shirt9:hover{
+    background-image:url(shirt9b.jpg);
+}

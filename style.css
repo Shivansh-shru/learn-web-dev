@@ -1,0 +1,45 @@
+p{
+    font-family: monospace,Arial, Helvetica, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.price{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.drop{
+    color:gray;
+    text-decoration: line-through;
+}
+.des{
+    text-align: center;
+   
+    margin-top: 0;
+    cursor: pointer;
+}
+.des:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.overlay{
+    position: absolute;
+    background-color: blueviolet; 
+    color: aliceblue;
+    height: 40px;
+    width:80px;
+    bottom: 40px;
+    right: 50px;
+    padding-bottom:2PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.15);;
+}   
+  

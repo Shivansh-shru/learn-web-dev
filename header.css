@@ -1,0 +1,95 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top:0 ;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    z-index: 100;
+}
+.search{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex:1;
+    max-width: 300px ;
+    vertical-align: text-bottom;
+   
+    
+}
+.logo{
+   width:280px;
+   justify-content: center;
+   margin-top: 20px;
+   flex-shrink: 0;
+   
+}
+.login{
+    width: 295px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+     flex-shrink: 0
+}
+.logo-image{
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top : 8px;
+    margin-left: 50px;
+}
+.searchbar::placeholder{
+    font-family:monospace,Arial, Helvetica, sans-serif;
+    font-size:large;
+
+}
+.searchbar{
+    flex: 1;
+    border:solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-width: 1px;
+    padding-left: 20px;
+    font-size: large;
+    font-family:monospace,Arial, Helvetica, sans-serif ;
+    box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.logophoto{
+    height: 40px;
+   
+}
+.searchicon{
+    border: none;
+}
+.sale{
+    display: flex;
+    flex :1;
+    background-color: rgb(177, 7, 7);
+    justify-content: center;
+    
+}
+.live{
+    text-decoration :solid;
+    font-weight:900;
+    color:aliceblue;
+}
+.currency{
+    height: 80px;
+    width: 160px;
+    font-size:25px;
+    font-family:monospace,Arial, Helvetica, sans-serif ;
+    border:none;
+    display: inline-block;
+}
+.LOGIN-ICON{
+    width: 35px;
+    height:35px;  
+       
+}
+.cart{
+    height:35px;
+    width:35px; 
+}
